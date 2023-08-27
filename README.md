@@ -1,6 +1,52 @@
-# Postman
-console.log(+resp.qa_salary_after_6_months)
 
-pm.test("Check parameter qa_salary_after_12_months is equal salary*2,7 from request", function () {
-    pm.expect(+resp.qa_salary_after_12_months).to.eql(+req.salary * 2.7);
-});
+ # POSTMAN 
+ # HW_1
+
+ **Создать запросы в Postman.**
+ 
+ 
+    Protocol: http
+    IP: 162.55.220.72
+    Port: 5005 
+----
+  **EP_1**
+  
+    Method: GET
+    EndPoint: /get_method
+    request url params: 
+    name: str
+    age: int
+
+----
+**Response**
+
+    [
+      "Sasha",
+      "35"
+    ]
+----
+**EP_2**
+
+    Method: POST
+    EndPoint: /user_info_3
+    request form data: 
+    name: str
+    age: int
+    salary: int
+ ----   
+    
+
+
+
+
+          
+  
+ 
+
+
+
+ 
+
+
+
+
